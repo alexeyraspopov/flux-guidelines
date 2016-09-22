@@ -4,5 +4,7 @@ A set of guides for building scalable single-page web applications using unidire
 
 ## Table of contents
 
- * [Introduction]
- * [Glossary]
+ * [Introduction](./Introduction.md)
+ * [Glossary](./Glossary.md)
+ * [Testing](./Testing.md)
+ * [Logging](./Logging.md)
