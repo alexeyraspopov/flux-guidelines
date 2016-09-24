@@ -3,9 +3,16 @@
 ### Action
 
 A message that represents an event of domain model. Everything that the user
-does to domain data is an **action**. The same as browser events, actions are
-plain javascript objects that contains data to describe what happened or what
+does to domain data is an action. The same as browser events, actions are
+plain javascript objects that contain data to describe what happened or what
 is going to happen. Usually, action means changes in domain data.
+
+### Action Creator
+
+A function that describes how an action is created. It may use any API (server
+requests, browser functions, etc) to make a decision what action should be
+created and passed to the dispatcher. One action creator may dispatch more
+than one action or action type.
 
 ### Dispatcher
 
@@ -24,4 +31,6 @@ setters or its data to public API.
 ### View
 
 UI components that retrieve data from stores and pass it to children
-components.
+components. When the user interacts with views, they should use action
+creators to describe user's intent. Once necessary stores are updated, view
+should retrieve new data and update its children.
