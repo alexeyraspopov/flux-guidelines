@@ -28,9 +28,9 @@ should be a part of domain model. Store may listen to the dispatcher and
 update its state based on dispatched actions. Store should not introduce any
 setters or its data to public API.
 
-### View
+### Container
 
 UI components that retrieve data from stores and pass it to children
-components. When the user interacts with views, they should use action
-creators to describe user's intent. Once necessary stores are updated, view
-should retrieve new data and update its children.
+components. When the user interacts with containers, they should use action
+creators to describe user's intent. Once necessary stores are updated,
+a container should retrieve new data and update its children.
