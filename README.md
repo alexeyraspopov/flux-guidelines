@@ -15,6 +15,8 @@ implementation.
  * [Testing](./Testing.md)
  * [Logging](./Logging.md)
 
+## Tools and examples
+
 When it comes to development tools configuration, the guides are referring to
 [Create React App][3] as a base tool with all the batteries included. This
 helps staying focused on the topic and don't repeat guides for a particular
@@ -22,7 +24,17 @@ tool which eventually becomes outdated. All examples described in JavaScript
 using ES2017. In case you're not familiar with the features in the newest
 standards, it's better to start with [Exploring JS][4] project.
 
+## About
+
+This is a non-profit project that aims at popularizing described approach in
+building web applications. The guides are based on author's real-world
+experience in using [Flux][1] with [React][2] and [Angular][5].
+
+The project is licensed under the [Creative Commons Attribution 4.0][6] license.
+
  [1]: http://facebook.github.io/flux
  [2]: http://facebook.github.io/react
  [3]: https://github.com/facebookincubator/create-react-app
  [4]: http://exploringjs.com
+ [5]: https://angularjs.org
+ [6]: https://github.com/alexeyraspopov/flux-guidelines/blob/master/LICENSE
