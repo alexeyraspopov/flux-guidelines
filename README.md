@@ -11,9 +11,14 @@ implementation.
 
  * [Introduction](./Introduction.md)
  * [Glossary](./Glossary.md)
- * [Structure](./Structure.md)
- * [Testing](./Testing.md)
- * [Logging](./Logging.md)
+ * Core Concepts
+ * Project Structure
+ * Writing Stores
+ * Writing Action Creators
+ * Fetching & Caching Data
+ * Creating Containers
+ * Using Immutable Data
+ * Writing tests
 
 ## Tools and examples
 
