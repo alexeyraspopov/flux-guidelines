@@ -1,6 +1,7 @@
 # Flux Guidelines / Structure
 
-[Facebook's Flux][1] is available as a NPM package and can be installed using:
+[Facebook's Flux][1] is [available][2] as a NPM package and can be installed
+using:
 
 ```bash
 npm install --save flux
@@ -15,3 +16,4 @@ export default new Dispatcher();
 ```
 
  [1]: http://facebook.github.io/flux
+ [2]: https://www.npmjs.com/package/flux
