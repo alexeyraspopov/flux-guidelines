@@ -11,7 +11,7 @@ implementation.
 
  * [Introduction](./Introduction.md)
  * [Glossary](./Glossary.md)
- * Core Concepts
+ * [Core Concepts](./CoreConcepts.md)
  * Project Structure
  * Writing Stores
  * Writing Action Creators
