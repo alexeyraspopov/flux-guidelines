@@ -9,12 +9,4 @@
 > trivial as possible.  
 > **— [Edsger W. Dijkstra, 1968][1]**
 
-```
-render = (Data) => UI
-update = (State, Action) => State'
-Actions = [UpdateThis, AddThat, DeleteShit, ...]
-AppState = Actions.reduce(update, InitialState)
-AppState.subscribe(render)
-```
-
  [1]: http://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
