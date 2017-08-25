@@ -1,12 +1,16 @@
 # Core Concepts
 
 Flux pattern is based on several concepts that make it different from well
-known MVC pattern.
+known [MVC pattern][1]. These concepts explain the nature of relations between
+entities and layers in the system.
 
 ## Unidirectional data flow
 
 Each piece of system has one particular and unique piece to get data from and
 another one to pass data to. There is no intersection between these relations.
+However, the type of relations is different in each particular case. Containers
+_pull_ data from stores, when stores _react_ on actions from the dispatcher.
+It aims to satisfy the rules of [loose coupling][2] and [high cohesion][3].
 
 ## Static subprograms instead of dynamic relations
 
@@ -29,3 +33,7 @@ the UI based on a list of actions happened in the system. This creates huge
 difference from MVC where you would need to perform some scenario in the way to
 get a needed state, where in Flux it happens by a straightforward operation on
 data.
+
+ [1]: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+ [2]: https://en.wikipedia.org/wiki/Loose_coupling
+ [3]: https://en.wikipedia.org/wiki/Cohesion_(computer_science)
