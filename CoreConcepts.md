@@ -1,4 +1,4 @@
-# Flux Guidelines / Core Concepts
+# Core Concepts
 
 Flux pattern is based on several concepts that make it different from well
 known MVC pattern.

@@ -1,4 +1,4 @@
-# Flux Guidelines / Structure
+# Structure
 
 [Facebook's Flux][1] is [available][2] as a NPM package and can be installed
 using:

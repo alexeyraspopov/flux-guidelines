@@ -1,4 +1,4 @@
-# Flux Guidelines / Glossary
+# Glossary
 
 ### Action
 

@@ -1,4 +1,4 @@
-# Flux Guidelines / Introduction
+# Introduction
 
 > Our intellectual powers are rather geared to master static relations and that
 > our powers to visualize processes evolving in time are relatively poorly
@@ -8,5 +8,13 @@
 > program (spread out in text space) and the process (spread out in time) as
 > trivial as possible.  
 > **— [Edsger W. Dijkstra, 1968][1]**
+
+```
+render = (Data) => UI
+update = (State, Action) => State'
+Actions = [UpdateThis, AddThat, DeleteShit, ...]
+AppState = Actions.reduce(update, InitialState)
+AppState.subscribe(render)
+```
 
  [1]: http://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
