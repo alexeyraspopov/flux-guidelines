@@ -11,7 +11,7 @@ Each piece of system has one particular and unique piece to get data from and
 another one to pass data to. There is no intersection between these relations.
 However, the type of relations is different in each particular case. Containers
 _pull_ data from stores, when stores _react_ on actions from the dispatcher.
-It aims to satisfy the rules of [loose coupling][2] and [high cohesion][3].
+It aims at satisfying the rules of [loose coupling][2] and [high cohesion][3].
 
 A set of connections can be represented as a circle:
 
@@ -19,10 +19,22 @@ A set of connections can be represented as a circle:
       ↑                      ↓
     Dispatcher    ←      Action Creator
 
+Entities have a specific type of relations that determines the scope of
+knowledge about each other:
+
  1. Containers _pull_ data from Stores
  2. Containers _push_ data to Action Creators
- 3. Action Creators _push_ action to Dispatcher
+ 3. Action Creators _push_ actions to Dispatcher
  4. Stores _react_ on Dispatcher
+
+Here are the key points:
+
+ * Dispatcher does not know about any piece of the system
+ * Stores only know about Dispatcher and use it as a single source of truth to
+   mutate their state
+ * Action Creators know how to produce actions and dispatch them
+ * Containers (as a UI layer) know where to get data and how to react to the
+   user's input
 
 ## Static subprograms instead of dynamic relations
 
