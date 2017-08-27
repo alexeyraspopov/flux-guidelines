@@ -38,7 +38,7 @@ Here are the key points:
 
 ## Static subprograms instead of dynamic relations
 
-In the way how the pieces are described they look like stateless pieces of code
+In the way how entities are described they look like stateless pieces of code
 with a single entry and an output. However, under the hood those subprograms
 are called frequently based on the user's interaction with the system. This
 achieved by generalizing the data flow and keeping the mechanism separately
