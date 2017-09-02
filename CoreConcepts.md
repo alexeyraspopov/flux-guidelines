@@ -2,12 +2,12 @@
 
 Flux pattern is based on several concepts that make it different from well
 known [MVC pattern][1]. These concepts explain the nature of relations between
-entities and layers in the system. Each of them can be efficient in isolation
+entities and layers in the system. Each of them can be effective in isolation
 from others, but together they shape the pattern in the way we know it.
 
 ## Unidirectional data flow
 
-Each piece of system has one particular and unique piece to get data from and
+Each piece of a system has one particular and unique piece to get data from and
 another one to pass data to. There is no intersection between these relations.
 However, the type of relations is different in each particular case. Containers
 _pull_ data from stores, when stores _react_ on actions from the dispatcher.
@@ -19,7 +19,7 @@ A set of connections can be represented as a circle:
       ↑                      ↓
     Dispatcher    ←      Action Creator
 
-Entities have a specific type of relations that determines the scope of
+Entities have a specific type of relations that determine the scope of
 knowledge about each other:
 
  1. Containers _pull_ data from Stores
@@ -38,8 +38,8 @@ Here are the key points:
 
 ## Static subprograms instead of dynamic relations
 
-In the way how entities are described they look like stateless pieces of code
-with a single entry and an output. However, under the hood those subprograms
+In the way how entities are described, they look like stateless pieces of code
+with a single entry and an output. However, under the hood, those subprograms
 are called frequently based on the user's interaction with the system. This
 achieved by generalizing the data flow and keeping the mechanism separately
 from the domain knowledge.
@@ -50,12 +50,12 @@ Action as a materialized fact about what happened in the system can be
 persisted. List of actions may be used for several techniques that barely
 possible to be implemented outside of the pattern. For example, when a system
 failure is observed it can be reported with a list of actions so it can be
-treated as a list of steps to reproduce the failure in different environment.
+treated as a list of steps to reproduce the failure in a different environment.
 
 ## Deterministic UI state
 
 Concepts described above introduces the way to compute a particular state of
-the UI based on a list of actions happened in the system. This creates huge
+the UI based on a list of actions happened in the system. This creates a huge
 difference from MVC where you would need to perform some scenario in the way to
 get a needed state, where in Flux it happens by a straightforward operation on
 data.
