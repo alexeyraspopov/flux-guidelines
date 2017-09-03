@@ -54,10 +54,10 @@ treated as a list of steps to reproduce the failure in a different environment.
 
 ## Deterministic UI state
 
-Concepts described above introduces the way to compute a particular state of
+Concepts described above introduce the way to compute a particular state of
 the UI based on a list of actions happened in the system. This creates a huge
 difference from MVC where you would need to perform some scenario in the way to
-get a needed state, where in Flux it happens by a straightforward operation on
+get a desired state, where in Flux it happens by a straightforward operation on
 data.
 
  [1]: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
