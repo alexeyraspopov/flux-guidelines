@@ -12,7 +12,7 @@ implementation.
  * [Introduction](./Introduction.md)
  * [Glossary](./Glossary.md)
  * [Core Concepts](./CoreConcepts.md)
- * Project Structure
+ * [Project Structure](./ProjectStructure.md)
  * Writing Stores
  * Writing Action Creators
  * Fetching & Caching Data
