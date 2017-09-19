@@ -15,10 +15,11 @@ implementation.
  * [Project Structure](./ProjectStructure.md)
  * Writing Stores
  * Writing Action Creators
- * Fetching & Caching Data
- * Creating Containers
  * Using Immutable Data
- * Writing tests
+ * Creating Containers
+ * Fetching & Caching
+ * Pagination & Querying
+ * Writing Tests
 
 ## Tools and examples
 
