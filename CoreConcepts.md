@@ -42,11 +42,12 @@ In the way how entities are described, they look like stateless pieces of code
 with a single entry and an output. However, under the hood, those subprograms
 are called frequently based on the user's interaction with the system. This
 achieved by generalizing the data flow and keeping the mechanism separately
-from the domain knowledge.
+from the domain knowledge. This also brings the ability to cover these pieces
+with tests in isolation.
 
 ## Actions as an activity log
 
-Action as a materialized fact about what happened in the system can be
+Action, as a materialized fact about what happened in the system, can be
 persisted. List of actions may be used for several techniques that barely
 possible to be implemented outside of the pattern. For example, when a system
 failure is observed it can be reported with a list of actions so it can be
