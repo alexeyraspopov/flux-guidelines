@@ -14,12 +14,12 @@ implementation.
  * [Core Concepts](./CoreConcepts.md)
  * [Project Structure](./ProjectStructure.md)
  * Writing Stores
+ * Dispatching Actions
  * Writing Action Creators
  * Using Immutable Data
  * Creating Containers
  * Fetching & Caching
  * Pagination & Querying
- * Writing Tests
 
 ## Tools and examples
 
