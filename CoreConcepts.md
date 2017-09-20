@@ -15,9 +15,9 @@ It aims at satisfying the rules of [loose coupling][2] and [high cohesion][3].
 
 A set of connections can be represented as a circle:
 
-    Store         →      Container
+    Store          →      Container
       ↑                      ↓
-    Dispatcher    ←      Action Creator
+    Dispatcher     ←      Action Creator
 
 Entities have a specific type of relations that determine the scope of
 knowledge about each other:
