@@ -25,6 +25,8 @@ import { Dispatcher } from 'flux';
 export default new Dispatcher();
 ```
 
+This is it, no more bootstrap required.
+
  [1]: https://github.com/facebookincubator/create-react-app
  [2]: http://facebook.github.io/flux
  [3]: https://www.npmjs.com/package/flux
