@@ -33,8 +33,8 @@ standards, it's better to start with [Exploring JS][4] project.
 ## About
 
 This is a non-profit project that aims at popularizing described approach in
-building web applications. The guides are based on the author's real-world
-experience in using [Flux][1] with [React][2] and [Angular][5].
+building single-page web applications. The guides are based on the author's
+real-world experience in using [Flux][1] with [React][2] and [Angular][5].
 
 The project is opened for any contributions (clarifications, updates, fixes,
 etc) and is [located][6] on GitHub. If you're interested, please check
