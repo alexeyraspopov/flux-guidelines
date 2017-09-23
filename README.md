@@ -28,7 +28,7 @@ When it comes to development tools configuration, the guides are referring to
 helps staying focused on the topic and don't repeat guides for a particular
 tool which eventually becomes outdated. All examples described in JavaScript
 using ES2017. In case you're not familiar with the features in the newest
-standards, it's better to start with [Exploring JS][4] project.
+standards, it's recommended to start with [Exploring JS][4] project.
 
 ## About
 
