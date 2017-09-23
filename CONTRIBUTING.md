@@ -15,7 +15,7 @@
 
  * This project uses [GitHub Flavored Markdown][1].
  * Please consider using [EditorConfig][2] to keep small things consistent.
- * Markdown files have 80 characters line width for better readability.
+ * Markdown files have 80 characters line width for the readability reasons.
 
  [1]: https://guides.github.com/features/mastering-markdown/
  [2]: http://editorconfig.org
