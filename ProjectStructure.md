@@ -27,6 +27,24 @@ export default new Dispatcher();
 
 This is it, no more bootstrap required.
 
+You already can start working on required domain logic, however, let's cover
+some conventions that help the project scale and be consistent.
+
+There is a controversial topic on how files should be organized: either by
+their type (components, controllers, styles) or by the feature they belong to.
+This guide will stick to the second option because of several reasons.
+
+When a system has a folder per module type (stores, components, containers,
+styles, etc), it ends up having fixed number of folders but every each of them
+will include dozens (or even hundreds) files that touching different aspects of
+the system. There is no clear vision of a separate subsystems and no scope
+defined for isolated graphs of dependencies.
+
+Having a folder per feature (or just a set of modules focused at a particular
+part of the system) introduces the ability to work on a feature in isolation.
+This means less time to find necessary modules, explore the system peace by
+peace, and having defined patterns of dependencies for new features.
+
  [1]: https://github.com/facebookincubator/create-react-app
  [2]: http://facebook.github.io/flux
  [3]: https://www.npmjs.com/package/flux
